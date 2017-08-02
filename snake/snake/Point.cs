@@ -25,7 +25,7 @@ namespace snake
         public Point(Point p)
         {
             x = p.x;
-            y = p.x;
+            y = p.y;
             sym = p.sym;
         }
         public void Move(int offset, Direction direction)
