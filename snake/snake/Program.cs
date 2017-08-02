@@ -18,14 +18,15 @@ namespace snake
             downline.Drow();
             VerticalLine leftline = new VerticalLine(0, 24, 0, '+');
             leftline.Drow();
-            VerticalLine reightline = new VerticalLine(0, 24, 78, '+');
-            reightline.Drow();
+            VerticalLine rightline = new VerticalLine(0, 24, 78, '+');
+            rightline.Drow();
 
 
-            Point p = new Point(4, 5, '*');
+            Point p = new Point(4, 4, '*');
 
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Drow();
+            snake.Move();
             Console.ReadLine();
         }
     }
