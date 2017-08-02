@@ -28,6 +28,8 @@ namespace snake
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Draw();
 
+            
+
             while (true)
             {
                 if (Console.KeyAvailable)
