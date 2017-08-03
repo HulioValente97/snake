@@ -13,13 +13,13 @@ namespace snake
         {
             Console.SetBufferSize(80, 25);
 
-            HorizontalLine upline = new HorizontalLine(0, 79, 0, '+');
+            HorizontalLine upline = new HorizontalLine(0, 78, 0, '+');
             upline.Draw();
-            HorizontalLine downline = new HorizontalLine(0, 79, 24, '+');
+            HorizontalLine downline = new HorizontalLine(0, 78, 24, '+');
             downline.Draw();
             VerticalLine leftline = new VerticalLine(0, 24, 0, '+');
             leftline.Draw();
-            VerticalLine rightline = new VerticalLine(0, 24, 79, '+');
+            VerticalLine rightline = new VerticalLine(0, 24, 78, '+');
             rightline.Draw();
 
 
